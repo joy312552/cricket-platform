@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { defaultRules, newInnings, step, dispatch, undo, editAt, rebuild, derive, matchResult, RuleError,
-  type Command, type InningsInit, type Session } from '../src/engine/engine.ts';
+  type Command, type InningsInit, type Session } from '../lib/engine.js';
 
 const A = ['a1','a2','a3','a4','a5','a6','a7','a8','a9','a10','a11'];
 const B = ['b1','b2','b3','b4','b5','b6','b7','b8','b9','b10','b11'];
